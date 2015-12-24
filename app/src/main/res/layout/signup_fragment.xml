@@ -19,7 +19,8 @@
             android:layout_height="159dp"
             android:layout_gravity="center"
             android:layout_marginBottom="25dp"
-            android:src="@drawable/logo_large"/>
+            android:src="@drawable/logo_large"
+            android:contentDescription="@string/app_logo"/>
 
         <TextView
             android:id="@+id/blazon"
@@ -68,7 +69,8 @@
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:id="@+id/facebook_button"
-            android:src="@drawable/facebook"/>
+            android:src="@drawable/facebook"
+            android:contentDescription="@string/fb_authentication"/>
 
         <ImageButton
             android:layout_width="0dp"
@@ -78,7 +80,8 @@
             android:layout_marginRight="10dp"
             android:id="@+id/twitter_button"
             android:src="@drawable/twitter"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/twitter_authentication"/>
 
         <ImageButton
             android:id="@+id/googleplus_button"
@@ -86,6 +89,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/google"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/google_plus_authentication"/>
+
     </LinearLayout>
 </LinearLayout>

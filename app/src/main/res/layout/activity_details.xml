@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:id="@+id/scene_container">
 
@@ -135,32 +134,40 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/where_image"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:padding="27dp"
-                android:src="@drawable/where" />
+                android:src="@drawable/where"
+                android:contentDescription="@string/where"/>
 
             <ImageView
+                android:id="@+id/when_image"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:padding="27dp"
-                android:src="@drawable/when" />
+                android:src="@drawable/when"
+                android:contentDescription="@string/when"/>
 
             <ImageView
+                android:id="@+id/who_image"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:padding="27dp"
-                android:src="@drawable/who" />
+                android:src="@drawable/who"
+                android:contentDescription="@string/who"/>
 
             <ImageView
+                android:id="@+id/what_image"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:padding="27dp"
-                android:src="@drawable/what" />
+                android:src="@drawable/what"
+                android:contentDescription="@string/what"/>
 
         </LinearLayout>
     </LinearLayout>

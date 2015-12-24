@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:focusableInTouchMode="true"
     android:orientation="vertical"
-    android:id="@+id/scene_container">
+    android:id="@+id/scene_container"
+    android:contentDescription="@string/map_fragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,8 @@
             android:layout_weight="2"
             android:padding="2dp"
             android:layout_marginRight="5dp"
-            android:src="@drawable/search" />
+            android:src="@drawable/search"
+            android:contentDescription="@string/description_find_location"/>
 
         <HorizontalScrollView
             android:layout_width="0dp"
@@ -49,7 +50,8 @@
                 android:layout_gravity="center_vertical"
                 android:hint="Search by location                                     "
                 android:imeOptions="actionGo"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:focusable="true"/>
 
         </HorizontalScrollView>
 
@@ -75,7 +77,8 @@
             app:backgroundTint="@color/primary"
             app:elevation="6dp"
             app:pressedTranslationZ="6dp"
-            app:rippleColor="@color/primary_dark" />
+            app:rippleColor="@color/primary_dark"
+            android:contentDescription="@string/add_instance"/>
 
     </RelativeLayout>
 </LinearLayout>

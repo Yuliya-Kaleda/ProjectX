@@ -67,7 +67,8 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="15dp"
             app:materialIcon="arrow_right_bold"
-            app:materialIconColor="#ffffff" />
+            app:materialIconColor="#ffffff"
+            android:contentDescription="@string/next_chart_button"/>
 
     </RelativeLayout>
 

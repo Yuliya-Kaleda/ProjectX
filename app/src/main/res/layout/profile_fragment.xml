@@ -2,12 +2,12 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:contentDescription="@string/profile_fragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusableInTouchMode="true"
         android:orientation="vertical">
 
         <LinearLayout
@@ -26,7 +26,8 @@
                 android:layout_weight="1"
                 android:src="@drawable/logo_white"
                 app:border_color="@color/accent"
-                app:border_width="2dp" />
+                app:border_width="2dp"
+                android:contentDescription="@string/profile_image_container"/>
 
             <TextView
                 android:id="@+id/profile_text"
@@ -70,7 +71,8 @@
                     android:inputType="number"
                     android:maxLength="4"
                     android:textColor="#000000"
-                    android:textColorHint="#363636" />
+                    android:textColorHint="#363636"
+                    android:focusable="true"/>
             </android.support.design.widget.TextInputLayout>
 
         </LinearLayout>

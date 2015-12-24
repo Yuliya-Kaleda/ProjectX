@@ -3,8 +3,8 @@
     android:layout_height="0dp"
     android:background="@drawable/gradient"
     android:descendantFocusability="beforeDescendants"
-    android:focusableInTouchMode="true"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:contentDescription="@string/stats_data_fragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,8 @@
             android:layout_gravity="center"
             android:layout_weight="2"
             android:layout_marginRight="5dp"
-            android:src="@drawable/search" />
+            android:src="@drawable/search"
+            android:contentDescription="@string/zipcode_description"/>
 
         <EditText
             android:id="@+id/zipcode"
@@ -38,7 +39,8 @@
             android:hint="@string/zipcode"
             android:inputType="number"
             android:maxLength="5"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:focusable="true"/>
 
     </LinearLayout>
 

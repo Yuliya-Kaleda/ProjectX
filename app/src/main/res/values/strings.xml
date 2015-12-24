@@ -104,4 +104,22 @@
     <string name="gps_network_not_enabled">Blazon is way better with Location Services enabled!</string>
     <string name="alert_detail">Send me a notification when entering areas with high harassment activity</string>
     <string name="blazon_alert">Enable Blazon Alert</string>
+    <string name="where">The place where an instance happened</string>
+    <string name="when">The time when an instance happened</string>
+    <string name="who">The group targeted</string>
+    <string name="what">What happened</string>
+    <string name="description_find_location">start typing address to find the location</string>
+    <string name="add_instance">Add a new instance of harassment</string>
+    <string name="next_chart_button">Go to the next chart</string>
+    <string name="profile_image_container">The place to insert your image for your profile</string>
+    <string name="app_logo">Logo of the app</string>
+    <string name="fb_authentication">Facebook authentication</string>
+    <string name="twitter_authentication">Twitter authentication</string>
+    <string name="google_plus_authentication">Google+ authentication</string>
+    <string name="zipcode_description">Type in you zipecode in the field to the left to check the level of harassment in your area</string>
+    <string name="stats_data_fragment">statical data presentation</string>
+    <string name="map_fragment">map fragment with harassment markers on it</string>
+    <string name="profile_fragment">profile page</string>
+    <string name="thank_you_image">Thank you image</string>
+    <string name="previous_chart">go the previous chart</string>
 </resources>

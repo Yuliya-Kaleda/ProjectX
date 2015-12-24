@@ -19,13 +19,13 @@
         android:layout_height="wrap_content"
         android:textColor="#FFF"
         android:fontFamily="sans-serif-thin"
-        android:paddingLeft="10dp"
-        />
+        android:paddingLeft="10dp" />
+
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/smallwhitelogo"
         android:paddingTop="10dp"
-         />
+        android:contentDescription="@string/thank_you_image"/>
     </LinearLayout>
 </LinearLayout>
